@@ -1,0 +1,52 @@
+:root{
+    --color-caja: rgb(255, 60, 25);
+    --color-bin: rgb(175, 78, 52);
+}
+.iniciosesion{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: var(--color-caja);
+    margin: 70px 35%;
+    border-radius: 60px;
+    box-shadow: 1px 1px 20px rgb(88, 29, 6);
+    opacity: 0.9;
+    height: 450px;
+}
+.Caja_text{
+    position: absolute;
+    left: 38%;
+}
+.boton{
+    padding: 5px 10px; 
+    font-size: 16px; 
+    background-color: var(--color-bin); 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+
+}
+.boton:hover {
+    background-color: #e26641; 
+}
+/*dando el efecto de click*/
+.boton:active{
+        transform: translate(0.05em, 0.05em);
+      box-shadow: 0.05em 0.05em;
+}
+.caja{
+    background-color:  rgb(186, 172, 168);
+    color: whitesmoke;
+    opacity: 0.8;
+    font-size: 15px;
+    position: absolute;
+    left: 48%;
+    
+
+}
+
+
+    

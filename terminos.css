@@ -1,0 +1,49 @@
+:root{
+    --color-caja: rgb(255, 60, 25);
+    --color-bin: rgb(175, 78, 52);
+}
+.titulodescrip{
+    position: absolute;
+    right: 30%;
+    top: 0;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texto{
+    color: rgb(255, 255, 255);
+    margin: 5% 6%;
+    background-color: rgb(213, 73, 42);
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
+
+.table{
+    position: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.caja_boton {
+    padding: 15px 30px; 
+    font-size: 20px; 
+    background-color: var(--color-bin); 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Agregando una transicion suave al color de fondo */
+}
+
+.caja_boton:hover {
+background-color: #e26641; 
+}
+/*dando el efecto de click*/
+.caja_boton:active{
+    transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}

@@ -1,0 +1,51 @@
+:root{
+    --color-caja: rgb(255, 60, 25);
+    --color-bin: rgb(175, 78, 52);
+}
+.caja_productos{
+    width: 35%;
+    height: 50%;
+    border-radius: 20%;
+    position: absolute;
+    top: 2%;
+
+}
+.titulodescrip{
+    position: absolute;
+    right: 20%;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.descripcion_producto{
+    border: solid coral 5px;
+    background-color: chocolate;
+    opacity: 0.9;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    color: whitesmoke;
+    width: 40%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja_boton {
+    padding: 15px 30px; 
+    font-size: 20px; 
+    background-color: var(--color-bin); 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Agregando una transicion suave al color de fondo */
+}
+
+.caja_boton:hover {
+background-color: #e26641; 
+}
+/*dando el efecto de click*/
+.caja_boton:active{
+    transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}

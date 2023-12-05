@@ -1,0 +1,142 @@
+/*producto 1*/
+.caja_producto1{
+    position: absolute;
+    top: 30%; 
+    left: 10%;
+    text-align: center;
+}
+:root{
+    --color-caja: rgb(255, 60, 25);
+    --color-bin: rgb(175, 78, 52);
+}
+.caja_contenido{
+    background-color: var(--color-caja);
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    float: right;
+    color: aliceblue;
+    border: 2px solid coral;
+    border-radius: 10%;
+}
+.caja_contenido:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 56px 0 chocolate;
+}
+.caja_productos{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.caja_text_titulo{
+    position: absolute;
+    top: 53%;
+    left: 30%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.caja_datos{
+    position: absolute;
+    left: 23%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja_boton {
+    padding: 5px 10px; 
+    font-size: 16px; 
+    background-color: var(--color-bin); 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Agregando una transicion suave al color de fondo */
+}
+
+.caja_boton:hover {
+background-color: #e26641; 
+}
+/*dando el efecto de click*/
+.caja_boton:active{
+    transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+/*Prodcunto 2*/
+.caja_producto2{
+    position: absolute;
+    top: 30%; 
+    left: 30%;
+    text-align: center;
+}
+/*Prodcunto 3*/
+.caja_producto3{
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    text-align: center;
+}
+/*Prodcunto 4*/
+.caja_producto4{
+    position: absolute;
+    top: 30%; 
+    left: 70%;
+    text-align: center;
+}
+/*Prodcunto 5*/
+.caja_producto5{
+    position: absolute;
+    top: 70%; 
+    left: 10%;
+    text-align: center;
+   
+}
+/*Prodcunto 6*/
+.caja_producto6{
+    position: absolute;
+    top: 70%; 
+    left: 30%;
+    text-align: center;
+   
+}
+/*Prodcunto 7*/
+.caja_producto7{
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    text-align: center;
+
+}
+/*Prodcunto 8*/
+.caja_producto8{
+    position: absolute;
+    top: 70%; 
+    left: 70%;
+    text-align: center;
+
+}
+/*Prodcunto 9*/
+.caja_producto9{
+    position: absolute;
+    top: 110%; 
+    left: 10%;
+    text-align: center;
+
+}
+/*Prodcunto 10*/
+.caja_producto10{
+    position: absolute;
+    top: 110%; 
+    left: 30%;
+    text-align: center;
+
+}
+
+
+
+
+
